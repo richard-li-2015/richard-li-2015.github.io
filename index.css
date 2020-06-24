@@ -12,10 +12,12 @@
 /*    border-bottom: solid 0.1px lightslategrey;*/
     height:70px;
     Width:100%;
+    /*
     background-image: url("Images/Nature/pexels-photo(7).jpg");
     background-repeat: no-repeat;
     background-position: 0px -250px;
     background-size: cover;
+    */
     box-shadow: lightslategrey 0px 0px 4px 0px;
     position: sticky;
     top: 0px;
@@ -46,7 +48,7 @@
 .Nav5_Courses{
     /*    border:solid 1px black;*/
     display: none;
-    padding:5px 0px 5px 0px;
+    padding:0px 0px 5px 0px;
     position: absolute;
     left: -10px;
     top: 45px;
@@ -54,7 +56,7 @@
     background-color: white;
     width: 1280px;
     border: solid 0.1px lightslategrey;
-    z-index: 2;
+    z-index: 3;
 }
 
 .Nav2_Courses:hover .Nav5_Courses{
@@ -76,6 +78,35 @@
     font-size:14px;
     color:black;
 }
+
+.Nav6_Courses_Link{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:dodgerblue;
+}
+
+.Nav6_Courses_Link:hover{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:Red;
+}
+
+.Nav6_Courses_Pay{
+    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
+    width: 240px;
+    height: 320px;
+    z-index: 9;
+    position: absolute;
+    right:-960px;
+    top:50px;
+    background-size: cover;
+    display: none;
+}
+
+/*.Nav2_Courses:hover .Nav6_Courses_Pay{*/
+/*    display: block;*/
+/*}*/
+
 
 #Header3_Courses{
 /*    border:solid 1px lightslategrey;*/
@@ -110,22 +141,28 @@
 .Nav5{
 /*    border:solid 1px black;*/
     display: none;
-    padding:5px 0px 5px 0px;
+    padding:80px 50px 120px 50px;
     position: absolute;
     left: 60px;
     top: 45px;
     text-align: left;
     background-color: white;
+    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
+    background-size: cover;
     border: solid 0.1px lightslategrey;
-    z-index: 2;
+    z-index: 8;
 }
 
 .Nav2:hover .Nav5{
     display: block;
 }
 
+.Nav6_Courses:hover .Nav5{
+    display: block;
+}
+
 .Nav7{
-    padding:5px 20px 5px 10px;
+    padding:20px 50px 20px 80px;
 }
 
 #Header2{
@@ -161,13 +198,14 @@
 .box2bo{
 /*    border: solid black;*/
     z-index: 2;
-    background-image: url("Images/Logos/WeChat Image_20191114150646.png");
-    background-size:cover;
-    width: 250px;
-    height: 120px;
+    background-image: url("Images/Logos/0001 - edited.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 80px;
     position: absolute;
-    left: 830px;
-    top: -42px;
+    left: 900px;
+    top: 12px;
 
 }
 
@@ -183,13 +221,27 @@
 }
 
 #Content{
-/*    border-top: solid 0.01px lightslategrey;*/
-/*    border-bottom: solid 0.01px lightslategrey;*/
+/*    border-top: solid 0.01px red;
+    border-bottom: solid 0.01px red;*/
     height:640px;
     Width:100%;
     padding:0px 0px 0px 0px;
     position: relative;
     box-shadow: lightslategrey 0px 0px 4px 0px;
+}
+
+#Intro{
+    color: black;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+
+#Intro_Title{
+    font-size: 30px;
+    color: black;
 }
 
 #Content_Image{
@@ -199,7 +251,7 @@
     position: Absolute;
     top:70px;
     z-index: -2;
-/*    background: linear-gradient(45deg, skyblue, white);*/
+    /*background: linear-gradient(45deg, skyblue, white);*/
     background-image: url("Images/Background/photo-1486406146926-c627a92ad1ab.jfif");
     Background-size: contain;
 }
@@ -211,8 +263,8 @@
     position: Absolute;
     top:70px;
     z-index: -1;
-    background: linear-gradient(45deg, lightsteelblue, white);
-    opacity: 0.75;
+    background: linear-gradient(45deg, white, lightsteelblue,  white);
+    opacity: 0.70;
 }
 
 
@@ -329,7 +381,7 @@
 }
 
 #Question_Bank{
-    /*border:solid 1px black;*/
+    /*border:solid 1px red;*/
     height:700px;
     Width:100%;
     padding:0px 0px 0px 0px;
@@ -705,16 +757,17 @@
 
 #About_Footer{
     /*border:solid 1px black;*/
-    height:70px;
+    height:180px;
     Width:100%;
     text-align: center;
     vertical-align: middle;
     padding:0px 0px 0px 0px;
     background-color: rgb(38,38,42);
+    /*margin-top: auto;*/
 }
 
 .C_Small_5{
-    font-size: 12px;
+    font-size: 14px;
     color: white;
 }
 
