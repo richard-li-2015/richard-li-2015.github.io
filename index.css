@@ -92,7 +92,7 @@
 }
 
 .Nav6_Courses_Pay{
-    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
+    background-image: url("Images/Logos/Pay_Code_Converted.jpg");
     width: 240px;
     height: 320px;
     z-index: 9;
@@ -147,7 +147,7 @@
     top: 45px;
     text-align: left;
     background-color: white;
-    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
+    background-image: url("Images/Logos/Pay_Code_Converted.jpg");
     background-size: cover;
     border: solid 0.1px lightslategrey;
     z-index: 8;
