@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-family:"Helvetica";
+    font-size:14px;
+    color:lightslategrey;
+}
+
+#About_Head{
+/*    border-bottom: solid 0.1px lightslategrey;*/
+    height:70px;
+    Width:100%;
+    /*
+    background-image: url("Images/Nature/pexels-photo(7).jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -250px;
+    background-size: cover;
+    */
+    box-shadow: lightslategrey 0px 0px 4px 0px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    background-color: white;
+}
+
+#About_Nav_Courses{
+/*    border:solid 1px black;*/
+    line-height:30px;
+    width:800px;
+    height:30px;
+    position:absolute;
+    left:330px;
+    top:25px;
+    text-align: left;
+
+}
+
+.Nav2_Courses{
+    /*    border:solid 1px black;*/
+    display: inline-block;
+    padding:0px 70px 0px 0px;
+    position: relative;
+}
+
+.Nav5_Courses{
+    /*    border:solid 1px black;*/
+    display: none;
+    padding:0px 0px 5px 0px;
+    position: absolute;
+    left: -10px;
+    top: 45px;
+    text-align: left;
+    background-color: white;
+    width: 1280px;
+    border: solid 0.1px lightslategrey;
+    z-index: 3;
+}
+
+.Nav2_Courses:hover .Nav5_Courses{
+    display: block;
+}
+
+.Nav7_Courses{
+    padding:5px 10px 5px 10px;
+}
+
+.Nav6_Courses{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:lightslategrey;
+}
+
+.Nav6_Courses:hover{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:black;
+}
+
+.Nav6_Courses_Link{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:dodgerblue;
+}
+
+.Nav6_Courses_Link:hover{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:Red;
+}
+
+.Nav6_Courses_Pay{
+    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
+    width: 240px;
+    height: 320px;
+    z-index: 9;
+    position: absolute;
+    right:-960px;
+    top:50px;
+    background-size: cover;
+    display: none;
+}
+
+/*.Nav2_Courses:hover .Nav6_Courses_Pay{*/
+/*    display: block;*/
+/*}*/
+
+
+#Header3_Courses{
+/*    border:solid 1px lightslategrey;*/
+    padding: 5px 120px 5px 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+#Header2_Courses{
+    /*    border:solid 1px lightslategrey;*/
+    padding: 0px 0px 30px 0px;
+}
+
+#About_Nav{
+/*    border:solid 1px black;*/
+    line-height:30px;
+    width:800px;
+    height:30px;
+    position:absolute;
+    right:320px;
+    top:25px;
+    text-align: right;
+}
+
+.Nav2{
+/*    border:solid 1px black;*/
+    display: inline-block;
+    padding:0px 0px 0px 70px;
+    position: relative;
+}
+
+.Nav5{
+/*    border:solid 1px black;*/
+    display: none;
+    padding:80px 50px 120px 50px;
+    position: absolute;
+    left: 60px;
+    top: 175px;
+    text-align: left;
+    background-color: white;
+    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
+    background-size: cover;
+    border: solid 0.1px lightslategrey;
+    z-index: 8;
+}
+
+.Nav2:hover .Nav5{
+    display: block;
+}
+
+#Reward{
+    position: absolute;
+    width: 215px;
+    z-index: 9;
+    right:-140px;
+    top:45px;
+    background-color: white;
+    padding: 5px 5px 5px 10px;
+    text-align: left;
+    display: none;
+    color: black;
+}
+
+.Nav2:hover #Reward{
+    display: block;
+}
+
+.Nav6_Courses:hover .Nav5{
+    display: block;
+}
+
+.Nav7{
+    padding:20px 50px 20px 80px;
+}
+
+#Header2{
+    /*    border:solid 1px lightslategrey;*/
+    padding: 0px 0px 30px 0px;
+}
+
+.Nav1{
+    font-family:"Helvetica";
+    font-size:16px;
+    color:lightslategrey;
+}
+
+.Nav6{
+    font-family:"Helvetica";
+    font-size:16px;
+    color:lightslategrey;
+}
+
+.Nav6:hover{
+    font-family:"Helvetica";
+    font-size:16px;
+    color:black;
+}
+
+.Nav1h{
+    font-family:"Helvetica";
+    font-size:16px;
+    text-align: center;
+    color:red;
+}
+
+.box2bo{
+/*    border: solid black;*/
+    z-index: 2;
+    background-image: url("Images/Logos/0001 - edited.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    left: 900px;
+    top: 12px;
+
+}
+
+#Arrow {
+    border: solid black;
+    border-color: lightslategrey;
+    border-width: 0 2.5px 2.5px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 0px 2px 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#Content{
+/*    border-top: solid 0.01px red;
+    border-bottom: solid 0.01px red;*/
+    height:640px;
+    Width:100%;
+    padding:0px 0px 0px 0px;
+    position: relative;
+    box-shadow: lightslategrey 0px 0px 4px 0px;
+}
+
+#Intro{
+    color: black;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+
+#Intro_Title{
+    font-size: 30px;
+    color: black;
+}
+
+#Content_Image{
+/*    border: solid 0.01px red;*/
+    height:640px;
+    Width:100%;
+    position: Absolute;
+    top:70px;
+    z-index: -2;
+    /*background: linear-gradient(45deg, skyblue, white);*/
+    background-image: url("Images/Background/photo-1486406146926-c627a92ad1ab.jfif");
+    Background-size: contain;
+}
+
+#Content_Filter{
+    /*    border: solid 0.01px red;*/
+    height:640px;
+    Width:100%;
+    position: Absolute;
+    top:70px;
+    z-index: -1;
+    background: linear-gradient(45deg, white, lightsteelblue,  white);
+    opacity: 0.70;
+}
+
+
+#Video_Station{
+/*    border: solid 0.1px lightslategrey;*/
+    height:600px;
+    Width:1260px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 330px;
+    top: 20px;
+}
+
+#Video_Screen{
+/*    border:solid 1px black;*/
+    height:600px;
+    Width:960px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 300px;
+    bottom: 2px;
+}
+
+#Video_Insert{
+    border:solid 0.05px lightslategrey;
+    height:540px;
+    Width:960px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 0px;
+    bottom: 28px;
+    box-shadow: lightslategrey -5px 5px 10px 1px;
+}
+
+#Video_Play_Menu{
+/*    border:solid 1px black;*/
+    height:600px;
+    Width:290px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 0px;
+}
+
+#Master_Play_Menu{
+/*    border:solid 1px black;*/
+    height:540px;
+    Width:280px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    bottom: 30px;
+    text-align: left;
+    z-index: 1;
+    box-shadow: lightslategrey -5px 5px 10px 1px;
+}
+
+#Master_Play_Menu_Filter{
+    /*    border:solid 1px black;*/
+    height:540px;
+    Width:280px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 2;
+
+}
+
+#Master_Play_Menu_Arrow{
+    height:540px;
+    Width:280px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    bottom: 30px;
+    text-align: right;
+    background-color: white;
+}
+
+.Nav7_Play_Menu_Arrow{
+    padding:14.5px 20px 14.5px 20px;
+    margin:0px 0px 0px 0px;
+/*    background: linear-gradient(45deg, lightsteelblue, white);
+    opacity: 0.3;*/
+}
+
+.Nav6_Play_Menu{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:lightslategrey;
+}
+
+.Nav6_Play_Menu:hover{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:black;
+}
+
+.Nav7_Play_Menu{
+    border-bottom:solid 0.05px lightslategrey;
+/*    border-left:solid 0.05px lightslategrey;
+    border-right:solid 0.05px lightslategrey;*/
+    padding:14.5px 10px 14.5px 15px;
+    margin:0px 0px 0px 0px;
+}
+
+.Arrow_Play_Menu {
+    border: solid black;
+    border-color: lightslategrey;
+    border-width: 0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    margin: 3px 0px 2px 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    text-align: right;
+}
+
+#Question_Bank{
+    /*border:solid 1px red;*/
+    height:700px;
+    Width:100%;
+    padding:0px 0px 0px 0px;
+    position: relative;
+    top: 10px;
+
+}
+
+/*#Question_Bank_Filter{
+    !*border:solid 1px black;*!
+    height:700px;
+    Width:100%;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    top: -10px;
+    background: linear-gradient(45deg, lightsteelblue, white);
+    opacity: 0.3;
+    z-index: -5;
+}*/
+
+#Question_Station{
+/*    border: solid 0.1px lightslategrey;*/
+    height:600px;
+    Width:1260px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 330px;
+}
+
+
+#Question_Filter_Menu{
+    /*    border:solid 1px black;*/
+    height:600px;
+    Width:290px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 0px;
+
+}
+
+#Master_Filter_Menu{
+/*    border:solid 1px black;*/
+    height:540px;
+    Width:280px;
+    padding:0px 0px 6px 0px;
+    position: absolute;
+    bottom: 24px;
+    text-align: left;
+    z-index: 1;
+    box-shadow: lightslategrey -5px 5px 10px 1px;
+
+}
+
+#Master_Filter_Menu_Arrow{
+    height:540px;
+    Width:280px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    bottom: 30px;
+    text-align: right;
+    background-color: white;
+}
+
+.Nav7_Filter_Menu_Arrow{
+/*    border:solid 0.05px lightslategrey;*/
+    padding:13.2px 20px 13.2px 20px;
+    margin:0px 0px 0px 0px;
+}
+
+.Nav7_Filter_Menu_Arrow_Sub{
+    padding:13.2px 20px 13.2px 20px;
+    margin:0px 0px 0px 0px;
+}
+
+.Nav6_Filter_Menu{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:lightslategrey;
+}
+
+.Nav6_Filter_Menu:hover{
+    font-family:"Helvetica";
+    font-size:14px;
+    color:black;
+}
+
+.Nav7_Filter_Menu{
+    border-left:solid 0.05px lightslategrey;
+    border-right:solid 0.05px lightslategrey;
+    border-top:solid 0.05px lightslategrey;
+    padding:13.2px 10px 13.2px 15px;
+    margin:0px 0px 0px 0px;
+}
+
+#Filter_Left_5{
+    border-bottom:solid 0.05px lightslategrey;
+    /*padding: 0px 0px 0px 0px;*/
+}
+
+.Arrow_Filter_Menu {
+    border: solid black;
+    border-color: lightslategrey;
+    border-width: 0px 2px 2px 0px;
+    display: inline-block;
+    padding: 3px;
+    margin: 3px 0px 2px 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    text-align: right;
+}
+
+.Arrow_Filter_Menu_Up {
+    border: solid black;
+    border-color: lightslategrey;
+    border-width: 2px 2px 0px 0px;
+    display: inline-block;
+    padding: 3px;
+    margin: 3px 0px 2px 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    text-align: right;
+}
+
+.Nav5_Filter_Menu{
+    /*    border:solid 1px black;*/
+    display: block;
+    padding:0px 0px 0px 0px;
+    text-align: left;
+    background-color: white;
+    z-index: 2;
+}
+
+/*.Nav2:hover .Nav5_Filter_Menu{
+    display: block;
+}*/
+
+.container:hover{
+    font-family:"Helvetica";
+    font-size:13px;
+    color:black;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family:"Helvetica";
+    color:lightslategrey;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+#Question_Board{
+/*    border: solid 1px black;*/
+    height:600px;
+    Width:960px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 300px;
+}
+
+#Master_MC_List{
+/*    border: solid 1px black;*/
+    height:540px;
+    Width:960px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    left: 0px;
+
+}
+
+.Nav7_MC_Menu{
+    border-top:solid 0.05px lightslategrey;
+    border-left:solid 0.05px lightslategrey;
+    border-right:solid 0.05px lightslategrey;
+    padding:13.2px 10px 13.2px 15px;
+    margin:30px 0px 0px 0px;
+    position: relative;
+    display: block;
+    height:309px;
+    box-shadow: lightslategrey -5px 5px 10px 1px;
+}
+
+.Nav7_MC_Menu_Question_Reference{
+    border-bottom:solid 0.05px lightslategrey;
+    padding:15.2px 10px 13.2px 10px;
+    margin:0px 0px 0px 0px;
+    position: absolute;
+    top:28px;
+    width:940px;
+}
+
+.Question_Reference_Sub{
+/*    border:solid 0.05px red;*/
+    display: inline-block;
+    padding:0px 45px 0px 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.Nav7_MC_Menu_Question{
+/*    border:solid 0.05px red;*/
+    padding:10px 10px 5px 15px;
+    margin:0px 0px 0px 0px;
+    position: absolute;
+    top:72px;
+    width:800px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.Nav7_MC_Menu_Answer_Choice{
+/*    border:solid 0.05px red;*/
+    padding:0px 10px 0px 15px;
+    margin:0px 0px 0px 0px;
+    position: absolute;
+    top:139px;
+    width:800px;
+}
+
+.Nav7_MC_Menu_Answer_Choice_Sub{
+    /*border:solid 0.05px red;*/
+    padding:5px 0px 5px 0px;
+}
+
+.Nav7_MC_Menu_Solution{
+    border-bottom:solid 0.05px lightslategrey;
+    border-top:solid 0.05px lightslategrey;
+    padding:10px 10px 10px 15px;
+    margin:0px 0px 0px 0px;
+    position: absolute;
+    top:222px;
+    width:935px;
+    color: black;
+}
+
+.Nav7_MC_Menu_Solution_Content{
+    border-bottom:solid 0.05px lightslategrey;
+    border-left:solid 0.05px lightslategrey;
+    padding:6px 10px 4px 15px;
+    margin:0px 0px 0px 0px;
+    position: absolute;
+    top:258px;
+    width:800px;
+    line-height: 17px;
+}
+
+.Nav7_MC_Menu_Solution_Content_Sub{
+    /*border:solid 0.05px red;*/
+    padding:5px 0px 5px 0px;
+}
+
+.Nav7_MC_Menu_Choice{
+/*    border:solid 0.05px lightslategrey;*/
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    position: absolute;
+    top:72px;
+    right: 0px;
+    width:135px;
+    height:292px;
+}
+
+.Choice_Content_Choice{
+    border-left:solid 0.05px lightslategrey;
+    padding:6px 10px 6px 10px;
+    width:115px;
+}
+
+.Button_Choice{
+    border:solid 0.05px lightslategrey;
+    padding:0px 0px 0px 0px;
+    margin:10px 0px 10px 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 26px;
+    background-color: #f4f4f4;
+}
+
+.Button_Choice:hover {
+    background-color: lightgrey;
+    border:solid 0.05px black;
+    color: black;
+}
+
+.Choice_Content_Action{
+    border-left:solid 0.05px lightslategrey;
+    border-bottom:solid 0.05px lightslategrey;
+    padding:8px 10px 8px 10px;
+    width:115px;
+    position: absolute;
+    top: 186px;
+}
+
+.Button_Action{
+    border:solid 0.05px lightslategrey;
+    padding:0px 0px 0px 0px;
+    margin:10px 0px 10px 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: black;
+    line-height: 26px;
+    background-color: #f4f4f4;
+}
+
+.Button_Action:hover {
+    background-color: lightgrey;
+    border:solid 0.05px black;
+}
+
+#About_Footer{
+    /*border:solid 1px black;*/
+    height:180px;
+    Width:100%;
+    text-align: center;
+    vertical-align: middle;
+    padding:0px 0px 0px 0px;
+    background-color: rgb(38,38,42);
+    /*margin-top: auto;*/
+}
+
+.C_Small_5{
+    font-size: 14px;
+    color: white;
+}
+
+.Nav3{
+    text-align: center;
+    color:white;
+}
+
+.Nav3:hover{
+    color:lightslategrey;
+}
+
+.Nav4{
+    display:inline-block;
+    padding:15px 20px 15px 20px;
+}
