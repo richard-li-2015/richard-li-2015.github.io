@@ -92,7 +92,7 @@
 }
 
 .Nav6_Courses_Pay{
-    background-image: url("Images/Logos/Pay_Code_Converted.jpg");
+    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
     width: 240px;
     height: 320px;
     z-index: 9;
@@ -144,16 +144,33 @@
     padding:80px 50px 120px 50px;
     position: absolute;
     left: 60px;
-    top: 45px;
+    top: 175px;
     text-align: left;
     background-color: white;
-    background-image: url("Images/Logos/Pay_Code_Converted.jpg");
+    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
     background-size: cover;
     border: solid 0.1px lightslategrey;
     z-index: 8;
 }
 
 .Nav2:hover .Nav5{
+    display: block;
+}
+
+#Reward{
+    position: absolute;
+    width: 215px;
+    z-index: 9;
+    right:-140px;
+    top:45px;
+    background-color: white;
+    padding: 5px 5px 5px 10px;
+    text-align: left;
+    display: none;
+    color: black;
+}
+
+.Nav2:hover #Reward{
     display: block;
 }
 
