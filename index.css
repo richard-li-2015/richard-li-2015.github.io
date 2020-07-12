@@ -141,16 +141,18 @@
 .Nav5{
 /*    border:solid 1px black;*/
     display: none;
-    padding:80px 50px 120px 50px;
+    /*padding:80px 50px 120px 50px;*/
     position: absolute;
     left: 60px;
     top: 175px;
     text-align: left;
     background-color: white;
-    background-image: url("Images/Logos/WeChat Image_20200621125351.png");
-    background-size: cover;
+    background-image: url("Images/Logos/WeChat Image_20200628153130.png");
+    background-size: contain;
     border: solid 0.1px lightslategrey;
     z-index: 8;
+    width: 230px;
+    height: 260px;
 }
 
 .Nav2:hover .Nav5{
